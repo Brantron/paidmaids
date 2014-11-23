@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <style>
+
+      .cls-2 {
+        fill: #f3f5f6;
+        stroke: #6079bb;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        filter: url(#inner-shadow-1);
+      }
+    </style>
+
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="0"/>
+      <feGaussianBlur result="innerShadowBlur" stdDeviation="3.606"/>
+      <feFlood flood-color="#000000" flood-opacity="0.17"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="multiply" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g id="ellipse-2" style="fill: #f3f5f6; filter: url(#inner-shadow-1);">
+    <circle id="circle-1" class="cls-2" cx="62" cy="62" r="57" style="stroke: inherit; filter: none; fill: inherit;"/>
+  </g>
+  <use xlink:href="#circle-1" style="stroke: #6079bb; fill: none; filter: none;"/>
+</svg>
