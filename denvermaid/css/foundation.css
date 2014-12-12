@@ -1,6 +1,40 @@
-#page-wrap{
-  width: 900px;
-  margin: 0 auto;
+header, footer {
+    height: 70px;
+  background-image: url(../img/vacuum1.png);
+  font-family: "Myriad Pro";
+color: #ffffff;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+}
+
+header {
+  background-color: #30170f;
+  z-index: 1;
+  height: 142px;
+
+}
+footer {
+
+position: relative;
+top: -20px;
+padding-top: 20px;
+height: 142px;
+}
+.page-wrap{
+background-color: #f3f5f6;
+width: 900px;
+margin: 20px auto;
+box-shadow: 8px -7px 24px 3px black;
+border-radius: 25px;
+}
+#menu li {
+  display:inline;
+}
+.landing {
+position: relative;
+top: -20px;
+width: 100%;
 }
 .wood {
   background-image: url(../img/wood-floor.png);
@@ -73,7 +107,9 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+    background-image: url(../img/wood-floor.png);
+  background-repeat: repeat;
+
   color: #222222;
   padding: 0;
   margin: 0;
@@ -3413,14 +3449,15 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "brandon-grotesque", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
-  line-height: 1.4; }
+  line-height: 1.4;
+  font-weight:500; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
     color: #6f6f6f;
