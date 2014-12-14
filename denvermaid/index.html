@@ -5,35 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Denver Maids</title>
   <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/flipout_cards.css" />
   <script src="js/vendor/modernizr.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="//use.typekit.net/gsu5tfm.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="/assets/js/jquery.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.flipout_cards.js"></script>
 </head>
 <body>
 
 
-    <header>
-      <div id="logo">
-      </div>
-      <nav>
-        <ul id="menu">
-          <li>Home</li>
-          <li>Services</li>
-          <li>Pricing</li>
-          <li>Contact</li>
-          <li>Book Now!</li>
-        </ul>
-      </nav>
-    </header>
-    <div class="page-wrap">
+  <header>
+    <div id="logo">
+    </div>
+    <nav>
+      <ul id="flip_nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="About Us/">About Us</a></li>
+        <li><a href="Pricing/">Pricing</a></li>
+        <li><a href="Contact/">Contact</a></li>
+        <li><a href="Book Now/">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="page-wrap">
+  <div id="intro-box">
     <div class="landing">
-    <div id="intro-box">
-      <h2 class="bickham">Get Your Home Cleaned</h2>
-      <p>Enjoy a Clean Home with the click of a Button!</p>
+      <h3>The Best Cleaning in the Denver Area</h3>
+      <p>Flat Rate Cleaning in just 1 Click</p>
       <a href="#" class="button radius">BOOK NOW</a>
 
-      <ul id="checklist">
+      <ul>
         <li>Easy online scheduling</li>
         <li>200% satisfaction guarantee</li>
         <li>Flat rate pricing with no contracts</li>
@@ -41,134 +45,129 @@
         <li>Discounts available for recurring appointments</li>
       </ul>
     </div>
+  </div>
+  <div class="row text-center" id="flip">
+    <h3>Services</h3>
+    <ul class="small-block-grid-3 text-center">
+      <li><img class="bsi" src="img/Ellipse_1.png"></li>
+      <li><img src="img/Ellipse_2.png"></li>
+      <li><img src="img/Ellipse_3.png"></li>
+    </ul>
+    <ul class="small-block-grid-3">
+      <li><h4>High Tech Innovation</h4>
+        <ul class="service text-left">
+          <li>Easy Booking in 60 seconds</li>
+          <li>Flat Rate Pricing Structure</li>
+          <li>No Contracts</li>
+          <li>Safe and Secure 256 - Bit SSL Billing</li>
+        </ul>
+      </li>
+      <li><h4>200% Satisfaction Guarantee</h4><p>If you're not completely satisfied with our work, we will come back and re-clean for free. If you still wouldn't recommend us to a friend, we'll five you a full refund.</li>
+      <li><h4>Old School Quality</h4>
+        <ul class="service text-left">
+          <li>Professional and Reliable Teams</li>
+          <li>Fully Insured  for Your Protection</li>
+          <li>We Provide Supplies and Equipment</li>
+          <li>Relax and Enjoy a Clean Living Space</li>
+        </ul></li>
+      </ul>
     </div>
     <div class="row">
-      <h3>Services</h3>
-      <ul class="small-block-grid-3 text-center">
-        <li><img src="img/ellipse_1.png"></li>
-        <li><img src="img/ellipse_2.png"></li>
-        <li><img src="img/ellipse_3.png"></li>
-      </ul>
-      <ul class="small-block-grid-3">
-        <li><h4>High Tech Innovation</h4>
-          <ul id="service_checklist">
-            <li>Easy Booking in 60 seconds</li>
-            <li>Flat Rate Pricing Structure</li>
-            <li>No Contracts</li>
-            <li>Safe and Secure 256 - Bit SSL Billing</li>
-          </ul>
-        </li>
-        <li><h4>200% Satisfaction Guarantee</h4><p>If you're not completely satisfied with our work, we will come back and re-clean for free. If you still wouldn't recommend us to a friend, we'll five you a full refund.</li>
-        <li><h4>Old School Quality</h4>
-          <ul id="service_checklist">
-            <li>Professional and Reliable Teams</li>
-            <li>Fully Insured and Bonded for Your Protection</li>
-            <li>Suplies and Equioment Provided by Us</li>
-            <li>Relax and Enjoy a Clean Living Space</li>
-          </ul></li>
-        </ul>
-      </div>
-      <div class="row">
-        <div class="wood clearfix">
-          <div class="row pricing">
-            <div class="small-4 columns">
-              <img src="img/trip-lines.png">
-            </div>
-            <div class="small-4 columns">
-              <h2>Pricing Guide</h2>
-            </div>
-            <div class="small-4 columns">
-              <img src="img/trip-lines.png">
-            </div>
+      <div class="row pricing">
+        <div class="small-4 small-offset-4 columns text-center">
+          <div class="space">
+            <h2>Pricing Guide</h2>
           </div>
-          <div class="sidegap">
-            <div class="small-22 columns">
-              <img src="img/house2.png">
-              <h5>1 Bedroom</h5>
-              <h4>$119</h4>
-            </div>
-            <div class="small-22 columns">
-              <img src="img/house2.png" class="center">
-              <h5>2 Bedroom</h5>
-              <h4>$119</h4>
-            </div>
-            <div class="small-22 columns">
-              <img src="img/house2.png">
-              <h5>3 Bedroom</h5>
-              <h4>$119</h4>
-            </div>
-            <div class="small-22 columns">
-              <img src="img/house2.png" class="center">
-              <h5>4 Bedroom</h5>
-              <h4>$119</h4>
-            </div>
-            <div class="small-22 columns">
-              <img src="img/house2.png">
-              <h5>5 Bedroom</h5>
-              <h4>$119</h4>
-            </div>
+          <div class="flipout">
+           <div class="foc-left">
+             <img src="img/house3.png">
+             <h4>3 Bedroom</h4>
+             <h2>$119</h2>
+             <a href="#" class="button radius">BOOK</a>
+           </div>
+           <div class="foc-left">
+             <img src="img/house3.png">
+             <h4>3 Bedroom</h4>
+             <h2>$119</h2>
+             <a href="#" class="button radius">BOOK</a>
+           </div>
+           <div class="foc-main">
+            <img src="img/house3.png">
+            <h4>3 Bedroom</h4>
+            <h2>$119</h2>
+            <a href="#" class="button radius">BOOK NOW</a>
           </div>
-        </div>
-      </div>
-      <div class="row text-center">
-        <img src="img/blue_rect.png">
-        <div class="small-4 columns guys">
-          <img src="img/guy1.png">
-          <h3>Jack B.</h3>
-          <h5>CEO - Organization</h5>
-          <p>I loved the job the maids did. It blew my mind!</p>
-        </div>
-        <div class="small-4 columns guys">
-          <img src="img/guy2.png">
-                    <h3>Jack B.</h3>
-          <h5>CEO - Organization</h5>
-          <p>I loved the job the maids did. It blew my mind!</p>
-        </div>
-        <div class="small-4 columns guys">
-         <img src="img/guy3.png">
-                   <h3>Jack B.</h3>
-          <h5>CEO - Organization</h5>
-          <p>I loved the job the maids did. It blew my mind!</p>
-        </div>
-        </div>
-        <div class="row">
-        <div class="small-3 columns">
-          <h3>As Seen In...</h3>
-        </div>
-        <div class="small-4 columns"><img src="img/as-seen1.png"></div>
-        <div class="small-4 columns"><img src="img/as-seen2.png"></div>
-        </div>
-        </div>
-      <footer>
-      <div class="row">
-        <div class="small-4 columns">
-          <span class="fa-stack fa-lg">
-  <i class="fa fa-twitter fa-stack-2x"></i>
+          <div class="foc-right">
+           <img src="img/house3.png">
+           <h4>3 Bedroom</h4>
+           <h2>$119</h2>
+           <a href="#" class="button radius">BOOK</a>
+         </div>
+         <div class="foc-right">
+           <img src="img/house5.png">
+           <h4>3 Bedroom</h4>
+           <h2>$119</h2>
+           <a href="#" class="button radius">BOOK</a>
+         </div>
+       </div>
+     </div>
 
-</span>
+   </div>
+ </div>
+
+ <div class="row text-center">
+  <img src="img/blue_rect.png">
+  <div class="small-4 columns guys">
+    <img src="img/guy1.png">
+    <h3>Jack B.</h3>
+    <h5>CEO - Organization</h5>
+    <p>I loved the job the maids did. It blew my mind!</p>
+  </div>
+  <div class="small-4 columns guys">
+    <img src="img/guy2.png">
+    <h3>Jack B.</h3>
+    <h5>CEO - Organization</h5>
+    <p>I loved the job the maids did. It blew my mind!</p>
+  </div>
+  <div class="small-4 columns guys">
+   <img src="img/guy3.png">
+   <h3>Jack B.</h3>
+   <h5>CEO - Organization</h5>
+   <p>I loved the job the maids did. It blew my mind!</p>
+ </div>
 </div>
-<div class="small-4 columns">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-inverse"></i>
-  <i class="fa fa-google-plus fa-3x fa-stack-1x"></i>
-</span>
+<div class="row">
+  <div class="small-3 columns">
+    <h3>As Seen In...</h3>
+  </div>
+  <div class="small-4 columns"><img src="img/as-seen1.png"></div>
+  <div class="small-4 columns"><img src="img/as-seen2.png"></div>
 </div>
-<div class="small-4 columns">
-<span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-    <i class="fa fa-twitter fa-stack-1x"></i>
-</span>
 </div>
-        </div>
-        </div>
-      </footer>
+<footer>
+  <div><a href="#"><img src="img/facebook.png"></a></div>
+  <div><a href="#"><img src="img/Googleplus.png"></a></div>
+  <div><a href="#"><img src="img/twitter.png"></a></div>
+</footer>
 
 
-    </div>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
-  </html>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/jquery.menuFlip.js"></script>
+<script src="js/jquery.flipout_cards.js"></script>
+<script>
+  $(document).foundation();
+  $(function() {
+    $('#flip_nav:not(#button)').menuFlip();
+  });
+  $(".flipout").flipout_cards({
+    animation: "flipOut",           // Animations available are: flipOut, slideOut and foldOut. The default value is flipOut
+    beforeOpen: function () {},     // This option accepts a callback function. The function will be called before the flip open animation starts.
+    afterOpen: function () {},      // This option accepts a callback function. The function will be called after the flip open animation finishes.
+    beforeClose: function () {},    // This option accepts a callback function. The function will be called before the flip close animation starts.
+    afterClose: function () {}      // This option accepts a callback function. The function will be called after the flip close animation finishes.
+  });
+</script>
+</body>
+</html>
