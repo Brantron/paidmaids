@@ -40,27 +40,37 @@ module.exports = function(grunt) {
             tasks: []
         }
     },
-    imagemin: {
-    dynamic: {
-        files: [{
-            expand: true,
-            cwd: 'img/',
-            src: ['**/*.{png,jpg,gif}'],
-            dest: 'images/build/'
-        }]
-    },
+    uncss: {
+  dist: {
+  	 options: {
+      ignore       : ['hover', 'click']
+  },
+    files: {
+      'css/foundation.css': ['index.html', 'about us/about.html','book now/booknow.html','contact/contact.html','pricing/pricing.html']
+      //'css/flipout_cards.css': ['index.html', 'about us/about.html','book now/booknow.html','contact/contact.html','pricing/pricing.html']
+    }
+  }
 }
+    //imagemin: { // Task
+//           dynamic: {                         // Another target
+//        files: [{
+//        expand: true,                  // Enable dynamic expansion
+//        cwd: 'img/',                   // Src matches are relative to this path
+//        src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+//        dest: 'dist/'                  // Destination path prefix
+//      }]
+//    }
+//        }
 });
 
     // 3. Where we tell Grunt we plan to use this plug-in.
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-
+    grunt.loadNpmTasks('grunt-uncss');
 
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['concat', 'uglify', 'watch', 'imagemin']);
+    grunt.registerTask('default', ['concat', 'uglify', 'uncss', 'watch']);
 
 };
