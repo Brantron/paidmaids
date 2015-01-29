@@ -1,0 +1,85 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Denver Maids</title>
+  <link rel="stylesheet" href="../css/foundation.css" />
+  <link rel="stylesheet" href="../css/flipout_cards.css" />
+  <script src="../js/vendor/modernizr.js"></script>
+  <script src="//use.typekit.net/gsu5tfm.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="../js/vendor/jquery.js"></script>
+  <script type="text/javascript" src="../js/jquery.flipout_cards.js"></script>
+</head>
+<body>
+  <!-- Header Beginning -->
+  <header>
+    <div id="logo">
+    </div>
+    <nav>
+      <ul id="flip_nav">
+        <li><a href="../">Home</a></li>
+        <li><a href="../About Us/about.html">About Us</a></li>
+        <li><a href="../Pricing/pricing.html">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="../Book Now/booknow.html">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header Beginning -->
+  <div class="page-wrap">
+  <div class="row">
+  <div class="small-6 columns">
+    <h2>Conveniently located!</h2>
+          <p>Centered in Downtown Denver, we service the entire metropolitan area!</p>
+
+    </div>
+    <div class="small-6 columns">
+    <div class="mapwrap">  
+      <iframe
+        width="460"
+        height="460"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2kZfh0UYU_bSc8cgNCxu83BEPvj-0mQk
+          &q=Denver+CO">
+      </iframe>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+    <form>
+      
+    </form>
+  </div>
+  </div>
+  <!-- Footer Beginning -->
+<footer>
+  <div><a href="#"><img src="../img/facebook.png"></a></div>
+  <div><a href="#"><img src="../img/Googleplus.png"></a></div>
+  <div><a href="#"><img src="../img/twitter.png"></a></div>
+</footer>
+  <!-- Footer Ending -->
+</div>
+<script src="../js/vendor/jquery.js"></script>
+<script src="../js/foundation.min.js"></script>
+<script src="../js/jquery.menuFlip.js"></script>
+<script src="../js/jquery.flipout_cards.js"></script>
+<script>
+  $(document).foundation();
+  $(function() {
+    $('#flip_nav:not(#button)').menuFlip();
+  });
+  $(".flipout").flipout_cards({
+    animation: "flipOut",           // Animations available are: flipOut, slideOut and foldOut. The default value is flipOut
+    beforeOpen: function () {},     // This option accepts a callback function. The function will be called before the flip open animation starts.
+    afterOpen: function () {},      // This option accepts a callback function. The function will be called after the flip open animation finishes.
+    beforeClose: function () {},    // This option accepts a callback function. The function will be called before the flip close animation starts.
+    afterClose: function () {}      // This option accepts a callback function. The function will be called after the flip close animation finishes.
+  });
+</script>
+</body>
+</html>

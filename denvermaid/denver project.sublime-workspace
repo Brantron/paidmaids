@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"my",
+				"myZipService"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
 				"margin",
-				"margin-top"
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"border-top-",
@@ -14,10 +42,6 @@
 			[
 				"border-top",
 				"border-top-style"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"li",
@@ -52,26 +76,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/C/wamp/www/FirstAngularProject/index.html",
 			"settings":
 			{
-				"buffer_size": 2139,
+				"buffer_size": 1795,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "img/ellipse.svg",
+			"file": "/C/wamp/www/FirstAngularProject/css/myapp.css",
 			"settings":
 			{
-				"buffer_size": 1106,
-				"line_ending": "Unix"
+				"buffer_size": 73,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/foundation.css",
+			"file": "/C/wamp/www/FirstAngularProject/js/tShoot.js",
 			"settings":
 			{
-				"buffer_size": 180242,
+				"buffer_size": 1796,
 				"line_ending": "Unix"
 			}
 		}
@@ -79,11 +103,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 472.0
 	},
 	"console":
 	{
@@ -104,6 +132,31 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/RupertJS-start/src/client/hello/hello-template.jade",
+		"/C/wamp/www/paidmaid/denvermaid/Pricing/pricing.html",
+		"/C/wamp/www/paidmaid/denvermaid/About Us/about.html",
+		"/C/wamp/www/paidmaid/denvermaid/Contact/contact.html",
+		"/C/wamp/www/paidmaid/denvermaid/Book Now/booknow.html",
+		"/C/wamp/www/paidmaid/denvermaid/css/foundation.css",
+		"/C/wamp/www/paidmaid/denvermaid/index.html",
+		"/C/wamp/www/paidmaid/denvermaid/gruntfile.js",
+		"/C/wamp/www/paidmaid/denvermaid/js/table.css",
+		"/C/wamp/www/blaw-wp/dedicated/index.html",
+		"/C/wamp/www/paidmaid/denvermaid/js/jquery.menuFlip.js",
+		"/C/wamp/www/paidmaid/denvermaid/package.json",
+		"/C/wamp/www/paidmaid/denvermaid/node_modules/grunt/lib/grunt.js",
+		"/C/wamp/www/paidmaid/denvermaid/node_modules/grunt-contrib-uglify/node_modules/maxmin/node_modules/gzip-size/node_modules/browserify-zlib/node_modules/pako/Gruntfile.js",
+		"/C/wamp/www/paidmaid/denvermaid/Book Now/index.html",
+		"/C/Users/lloyd/Creative Cloud Files/index.html",
+		"/C/wamp/www/paidmaid/denvermaid/css/flipout_cards.css",
+		"/C/wamp/www/paidmaid/denvermaid/img/clipboard_2.svg",
+		"/C/Users/lloyd/Creative Cloud Files/Brandon_Lawrence_Project3.py",
+		"/C/Users/lloyd/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/lloyd/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/wamp/www/paidmaid/denvermaid/css/style.css",
+		"/C/wamp/privategithub.ppk",
+		"/C/wamp/www/paidmaid/denvermaid/img/ellipse.svg",
+		"/C/wamp/publicgithub",
 		"/C/wamp/www/FirstAngularProject/js/tShoot.js",
 		"/C/wamp/www/FirstAngularProject/index.html",
 		"/C/wamp/www/Maids/css/foundation.css",
@@ -129,7 +182,6 @@
 		"/C/Users/lloyd/Downloads/foundation-5.4.0.zip",
 		"/C/wamp/www/Brandon/css/foundation.css",
 		"/C/wamp/www/Brandon/index.html",
-		"/C/wamp/www/blaw-wp/dedicated/index.html",
 		"/C/wamp/www/blaw-wp/dedicated/css/agency.css",
 		"/C/Users/lloyd/AppData/Local/Temp/fz3temp-1/.htaccess",
 		"/C/Users/lloyd/AppData/Local/Temp/fz3temp-1/bootstrap.css",
@@ -172,7 +224,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -186,6 +238,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"condition",
+			"genre",
+			"h2",
+			"ELEGANT",
+			"focus",
+			" class=\"tcheck\"",
+			"<img src=\"../img/yellowcheck.png\">",
+			" <tr class=\"row\">\n          <td class=\"col\">",
+			"<td class=\"col\"></td>",
+			".col ",
+			".col",
+			" <tr class=\"row\">\n    <td class=\"col\">",
+			"table",
+			"#3F51B5",
+			"table",
+			";",
+			")",
+			"register",
+			"load",
+			"init",
+			"iframe",
+			"rel",
+			"height",
+			"right",
+			"services",
+			"checkl",
+			"ul {",
+			"E64A19",
+			"button",
+			">\n",
+			"pricing",
+			"li {",
+			"li",
+			"1rem",
+			"font-family",
+			"p {",
+			".p {",
+			".p",
+			"h1",
+			"footer",
+			"header",
+			"columns",
+			"row",
 			"submit",
 			"button",
 			"wrapper",
@@ -239,6 +334,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"h4",
+			"DENVER",
+			"",
+			"<img src=\"../img/yellowcheck.png\" class=\"tcheck\">",
+			" <tr class=\"row\">\n          <td class=\"colhead\">",
+			"<td class=\"col\"><img src=\"../img/yellowcheck.png\"></td>",
+			" <tr class=\"row\">\n    <td class=\"colhead\">",
+			"#3949AB",
 			""
 		],
 		"reverse": false,
@@ -250,24 +353,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/C/wamp/www/FirstAngularProject/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2139,
+						"buffer_size": 1795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1958,
-								1958
+								1720,
+								1720
 							]
 						],
 						"settings":
@@ -277,34 +380,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 738.0,
+						"translation.y": 65.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "img/ellipse.svg",
+					"file": "/C/wamp/www/FirstAngularProject/css/myapp.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1106,
+						"buffer_size": 73,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								198
+								67,
+								67
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -315,24 +416,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "css/foundation.css",
+					"file": "/C/wamp/www/FirstAngularProject/js/tShoot.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 180242,
+						"buffer_size": 1796,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								370,
+								370
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -340,7 +441,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -348,7 +449,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -384,7 +485,7 @@
 	"project": "denver project.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

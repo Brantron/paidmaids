@@ -52,13 +52,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Denver Maids</title>\n    <link rel=\"stylesheet\" href=\"css/foundation.css\" />\n    <script src=\"js/vendor/modernizr.js\"></script>\n  </head>\n  <body>\n\n\n    \n    <script src=\"js/vendor/jquery.js\"></script>\n    <script src=\"js/foundation.min.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n  </body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 6424,
-			"file_write_time": 130608395978915391,
 			"settings":
 			{
-				"buffer_size": 501,
+				"buffer_size": 6206,
 				"line_ending": "Unix"
 			}
 		},
@@ -66,7 +63,7 @@
 			"file": "css/foundation.css",
 			"settings":
 			{
-				"buffer_size": 180241,
+				"buffer_size": 185080,
 				"line_ending": "Unix"
 			}
 		}
@@ -253,15 +250,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 501,
+						"buffer_size": 6206,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								321,
-								321
+								587,
+								587
 							]
 						],
 						"settings":
@@ -283,7 +280,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 180241,
+						"buffer_size": 185080,
 						"regions":
 						{
 						},
